@@ -4,7 +4,7 @@ import sithRouter from "./routes/sith.js";
 import * as path from "path";
 
 const app = express();
-const port = 3005;
+const port = process.env.PORT || 3005;
 const __dirname = path.resolve();
 
 app.get('/', (req, res) => { 
