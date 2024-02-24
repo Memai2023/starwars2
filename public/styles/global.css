@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(110, 87, 87);
+    margin: 0;
+}
+
+body.jedi {
+    background-color: blanchedalmond;
+}
+
+body.sith {
+    background-color: #333;
+    color: #fff;
+}
+
+header {
+    padding: 24px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: auto;
+    padding: 16px;
+}
+
+nav ul li {
+    background-color: rgb(87, 82, 76);
+    border-radius: 10px;
+    border: 1px solid #333;
+    padding: 8px 16px;
+    transition: all linear .3s;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li:hover {
+    background-color: #333;
+
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+.main-content {
+    text-align: center;
+}
